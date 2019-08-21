@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <title></title>
+  <link rel="import" href="@frame.html">
+  <script type="text/javascript">
+var interface_def = {
+    name : "engine",
+    base : "",
+    namespace : ["xt"],
+    comments : ["Interface declaration: [namespace::]name, path"],
+    creators : [
+        {
+            comments : ["Interface creator"],
+            return_value : {
+                type : "iref<xt::engine>",
+                basetype : "iref<xt::engine>",
+                comment : ""
+            },
+            name : "get",
+            args : [
+
+            ],
+            const_method : false
+        }
+    ],
+    methods : [
+        {
+            comments : [],
+            return_value : {
+                type : "void",
+                basetype : "void",
+                comment : ""
+            },
+            name : "set_value",
+            args : [
+                {
+                    name : "x",
+                    type : "int",
+                    basetype : "int",
+                    comment : "",
+                    string : false,
+                    inarg : true,
+                    outarg : false,
+                    size : "",
+                    defval : ""
+                }
+            ],
+            const_method : false
+        },
+        {
+            comments : [],
+            return_value : {
+                type : "void",
+                basetype : "void",
+                comment : ""
+            },
+            name : "init_chassis",
+            args : [
+                {
+                    name : "obj",
+                    type : "iref<ot::vehicle_physics>",
+                    basetype : "iref<ot::vehicle_physics>",
+                    comment : "",
+                    string : false,
+                    inarg : true,
+                    outarg : false,
+                    size : "",
+                    defval : ""
+                }
+            ],
+            const_method : false
+        },
+        {
+            comments : [],
+            return_value : {
+                type : "void",
+                basetype : "void",
+                comment : ""
+            },
+            name : "init_vehicle",
+            args : [
+                {
+                    name : "obj",
+                    type : "iref<ot::vehicle_physics>",
+                    basetype : "iref<ot::vehicle_physics>",
+                    comment : "",
+                    string : false,
+                    inarg : true,
+                    outarg : false,
+                    size : "",
+                    defval : ""
+                }
+            ],
+            const_method : false
+        },
+        {
+            comments : [],
+            return_value : {
+                type : "void",
+                basetype : "void",
+                comment : ""
+            },
+            name : "update_vehicle",
+            args : [
+                {
+                    name : "dt",
+                    type : "float",
+                    basetype : "float",
+                    comment : "",
+                    string : false,
+                    inarg : true,
+                    outarg : false,
+                    size : "",
+                    defval : ""
+                },
+                {
+                    name : "throttle",
+                    type : "float",
+                    basetype : "float",
+                    comment : "",
+                    string : false,
+                    inarg : true,
+                    outarg : false,
+                    size : "",
+                    defval : ""
+                },
+                {
+                    name : "brake",
+                    type : "float",
+                    basetype : "float",
+                    comment : "",
+                    string : false,
+                    inarg : true,
+                    outarg : false,
+                    size : "",
+                    defval : ""
+                },
+                {
+                    name : "steer",
+                    type : "float",
+                    basetype : "float",
+                    comment : "",
+                    string : false,
+                    inarg : true,
+                    outarg : false,
+                    size : "",
+                    defval : ""
+                }
+            ],
+            const_method : false
+        },
+        {
+            comments : [],
+            return_value : {
+                type : "void",
+                basetype : "void",
+                comment : ""
+            },
+            name : "firething",
+            args : [
+
+            ],
+            const_method : false
+        },
+        {
+            comments : [],
+            return_value : {
+                type : "void",
+                basetype : "void",
+                comment : ""
+            },
+            name : "turretthing",
+            args : [
+                {
+                    name : "v",
+                    type : "float",
+                    basetype : "float",
+                    comment : "",
+                    string : false,
+                    inarg : true,
+                    outarg : false,
+                    size : "",
+                    defval : ""
+                },
+                {
+                    name : "dt",
+                    type : "float",
+                    basetype : "float",
+                    comment : "",
+                    string : false,
+                    inarg : true,
+                    outarg : false,
+                    size : "",
+                    defval : ""
+                }
+            ],
+            const_method : false
+        },
+        {
+            comments : [],
+            return_value : {
+                type : "void",
+                basetype : "void",
+                comment : ""
+            },
+            name : "mantletthing",
+            args : [
+                {
+                    name : "v",
+                    type : "float",
+                    basetype : "float",
+                    comment : "",
+                    string : false,
+                    inarg : true,
+                    outarg : false,
+                    size : "",
+                    defval : ""
+                },
+                {
+                    name : "dt",
+                    type : "float",
+                    basetype : "float",
+                    comment : "",
+                    string : false,
+                    inarg : true,
+                    outarg : false,
+                    size : "",
+                    defval : ""
+                }
+            ],
+            const_method : false
+        },
+        {
+            comments : [],
+            return_value : {
+                type : "int",
+                basetype : "int",
+                comment : ""
+            },
+            name : "get_value",
+            args : [
+
+            ],
+            const_method : true
+        }
+    ],
+    "events" : [
+
+    ]
+};
+  </script>
+</head>
+<body>
+  <script>
+    (function() {
+      if(location.search == '') window.location.href = "../index.html?iface=engine"; else build_interface_markup();
+    })();
+  </script>
+</body>
+</html>
